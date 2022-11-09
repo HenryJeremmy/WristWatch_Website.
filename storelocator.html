@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Store Locator</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/storelocator.css">
+</head>
+
+<body>
+    <section>
+        <a href="index.html"><img src="img/wristlogo.png" alt="img" class="logo"></a>
+        <span class="fa fa-search " style="color: white; "></span>
+
+    </section>
+    <nav class="">
+
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" name="" id="btn">
+        <ul class="font-weight-bold">
+
+            <li>
+                <label for="btn-1" class="show">PRODUCT +</label>
+                <a href="#">PRODUCT</a>
+                <input type="checkbox" name="" id="btn-1">
+                <ul>
+                    <li><a href="vintage.html">Vintage watches</a></li>
+                    <li><a href="luxury.html">Luxury watches</a></li>
+                    <li><a href="smart.html">Smart watches</a></li>
+
+                </ul>
+            </li>
+            <li><a href="tech.html">TECHNOLOGY</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li>
+                <label for="btn-2" class="show">STORE LOCATOR </label>
+                <a href="storelocator.html">STORE LOCATOR</a>
+            </li>
+            <li><a href="support.html">SUPPORT</a></li>
+            <li>
+                <label for="btn-2" class="show">LOGIN + </label>
+                <a href="#"><span class="fa fa-user mr-2"></span></a>
+                <input type="checkbox" name="" id="btn-2">
+                <ul>
+                    <li><a href="#"data-toggle="modal" data-target="#mymodal">Login</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- the modal -->
+    <div class="modal  fade" id="mymodal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <h3>Sign in or Register</h3>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- the body -->
+                <div class="container mt-4 mode">
+                    <div class="row">
+                        <div class="col-md-6 mod1">
+                           <label for="Email">Email</label>
+                           <input type="email" class="form-control" placeholder="Email">
+                           <label for="password" class="mt-3">Password</label>
+                           <input type="password" class="form-control" placeholder="password">
+                           <p><a href="#"> Forgot password?</a></p>
+                           <button class="btn"><a href="dashboard.html">LOGIN</a> </button>
+
+                        </div>
+                        <div class="col-md-6 mod2">
+                            <h5>NEW HERE?</h5>
+                            <p>Registration is free and easy!</p>
+                            <ul>
+                                <li>Faster checkout</li>
+                                <li>Save multiple shipping addresses</li>
+                                <li>View and track orders and more</li>
+                            </ul>
+                            <button class="btn"><a href="signup.html">CREATE ACCOUNT</a> </button>
+                        </div>
+                    </div>
+                </div>
+              
+
+                <!-- the footer -->
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure>
+        <img src="img/vintage.png" class="img-fluid" alt="img">
+        <h2>Stores</h2>
+    </figure>
+    <div class="container mt-5 first">
+        <div class="row">
+            <div class="col-md-6">
+                <h5><span>01</span> Lekki Phase 1, Lagos.</h5>
+                <p>Lennox Mall (2nd Floor) The Premier Watch Place #3 Admiralty Way Lekki Phase 1, Lagos.</p>
+                <h5><span>03</span> Lekki-Epe Expressway, Lagos.</h5>
+                <p>Entrance 2, Shop 11 ,The Palms Shopping Mall, No. 1 British International School (BIS) Way, Lekki-Epe
+                    Expressway, Lagos.</p>
+                <h5><span>05</span> FCT, Abuja.</h5>
+                <p>Ground Floor , Silverbird Entertainment Centre, 1161 Memorial Drive, by Yar’Adua Center, Central
+                    Business District, Federal Capital Territory, Abuja.</p>
+                <h5><span>07</span> FCT, Abuja.</h5>
+                <p>Shop L5 Entrance 3, (Lower Ground Packing) Jabi Lake Mall Abuja, F.C.T.</p>
+            </div>
+            <div class="col-md-6">
+                <h5><span>02</span> Victoria Island, Lagos.</h5>
+                <p>Shop No. 5, 3rd floor Mega Plaza,14, Idowu Martins Street, Victoria Island, Lagos.</p>
+                <h5><span>04</span> Owerri, Imo.</h5>
+                <p>2 Spibat Rd Amakohia-Akwakuma 460116 Owerri.</p>
+                <h5><span>06</span> Portharcourt, Rivers.</h5>
+                <p>Portharcourt Mall (Ground Floor), Portharcourt, Rivers State.</p>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5 second">
+        <div class="row ">
+            <div class="col-md-12 text-center">
+                <span class="fas fa-map-marker-alt mb-4"></span>
+                <div class="input-group one">
+                    <div class="form">
+                      <input type="search" id="form1" class="form-control two" placeholder="Search"/>
+                    </div>
+                    <button type="button" class="btn ">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="600" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=2%20Spibat%20Rd%20Amakohia-Akwakuma%20460116%20Owerri&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-to.org"></a><br>
+                        <a href="https://www.embedgooglemap.net"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="container">
+            <div class="row text-center text-md-left ">
+                <div class="col-md-3 mb-4 mt-3 mx-auto">
+                    <h6 class="text-uppercase font-weight-bold">DISCLAIMER</h6>
+                    <hr class=" mb-4 mt-0 d-inline-block mx-auto " style="width:125px; height:2px;">
+                    <p class="mt-2"> We are not an official dealer for the products we sell and have no affiliation with the manufacturer.
+                        All brand names and trademarks are the property of their respective owners and are used for identification purposes only.</p>
+                </div>
+                <div class="col-md-2 mb-4 mt-3 mx-auto ">
+                    <h6 class="text-uppercase font-weight-bold">Information</h6>
+                    <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width:135px; height:2px;">
+
+                    <ul class="list-unstyled ">
+                        <li class="my-2 "><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="my-2"><a href="Terms_condition.html" class="text-white">Shipping policy</a></li>
+                        <li class="my-2"><a href="Terms_condition.html" class="text-white">Refund policy</a></li>
+                        <li class="my-2"><a href="storelocator.html" class="text-white">Store locator</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mb-4 mt-3 mx-auto">
+                    <h6 class="text-uppercase font-weight-bold">Support</h6>
+                    <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width:90px; height:2px;">
+
+                    <ul class="list-unstyled ">
+                        <li class="my-2"><a href="contact.html" class="text-white">Contact Us</a></li>
+                        <li class="my-2"><a href="support.html" class="text-white">FAQ</a></li>
+                        <li class="my-2"><a href="Terms_condition.html" class="text-white">Terms & Condition</a></li>
+                        <li class="my-2 "><a href="Terms_condition.html" class="text-white">Privacy policy</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 mb-4 mt-3 mx-auto">
+                    <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+                    <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width:113px; height:2px;">
+
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fas fa-home mr-3"></i> 2 Spibat Rd Amakohia-Akwakuma 460116 Owerri. </li>
+                        <li class="my-2"><i class="fas fa-envelope mr-2 "></i> info@albertowatch.com</li>
+                        <li class="my-2"><i class="fas fa-phone mr-3"></i> +234-816-286-2063</li>
+                        <li class="my-2 "><i class="fas fa-print mr-3"></i> +234-903-635-5608</li>
+                    </ul>
+                    <form class="form-inline">
+                        <i class="fas fa-search"></i>
+                        <input class="form-control mr-sm-2 ml-3" type="search" placeholder="" aria-label="Search">
+                    </form>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row  py-4 d-flex align-item-center ">
+                <div class="col-md-12 text-center iconfa">
+                    <a href="#"><i class="fab fa-facebook-f text-white mr-4 "
+                            style="height:3vh ; width:3rem;"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white mr-4" style="height:3vh ; width:3rem;"></i></a>
+                    <a href="#"><i class="fab fa-instagram text-white mr-4"
+                            style="height:3vh ; width:3rem;"></i></a>
+                    <a href="#"><i class="fab fa-google-plus text-white " style="height:3vh ; width:3rem;"></i></a>
+                </div>
+            </div>
+            <hr class="mx-auto">
+        </div>
+        <div class="footer-copyright py-2 text-center">
+            <p>&copy; 2022 <a href="#">albertowatch&#44; Ltd.. </a>All Right Reserved</p>
+            <p>Designed by Henry Jeremmy</p>
+        </div>
+
+    </footer> 
+    <button id="mybtn">
+        <i class="fa fa-arrow-up"></i>
+    </button> 
+
+
+</body>
+<script type="text/javascript" src="dist/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="dist/js/all.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+<script>
+    // jquery function to display button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 20) {
+            $('#mybtn').fadeIn('slow');
+        } else {
+            $('#mybtn').fadeOut('slow');
+        }
+    });
+
+    // scroll to top
+    $('#mybtn').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, "slow");
+        return false
+    }); 
+</script>
+</html>
